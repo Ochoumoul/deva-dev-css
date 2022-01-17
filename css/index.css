@@ -1,87 +1,246 @@
 @font-face {
-  font-family: "Nexa Thin";
-  src: url("../assets/fonts/NexaThin.otf") format("opentype"); }
-
-@font-face {
-  font-family: "Nexa Thin Italic";
-  font-style: italic;
-  src: url("../assets/fonts/NexaThinItalic.otf") format("opentype"); }
-
-@font-face {
-  font-family: "Nexa Extra Light";
+  font-family: "Nexa";
+  font-weight: 100;
   src: url("../assets/fonts/NexaExtraLight.otf") format("opentype"); }
 
 @font-face {
-  font-family: "Nexa Extra Light Italic";
+  font-family: "Nexa";
   font-style: italic;
+  font-weight: 100;
   src: url("../assets/fonts/NexaExtraLightItalic.otf") format("opentype"); }
 
 @font-face {
-  font-family: "Nexa Light";
+  font-family: "Nexa";
+  font-weight: 200;
+  src: url("../assets/fonts/NexaThin.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Nexa";
+  font-style: italic;
+  font-weight: 200;
+  src: url("../assets/fonts/NexaThinItalic.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Nexa";
+  font-weight: 300;
   src: url("../assets/fonts/NexaLight.otf") format("opentype"); }
 
 @font-face {
-  font-family: "Nexa Light Italic";
+  font-family: "Nexa";
   font-style: italic;
+  font-weight: 300;
   src: url("../assets/fonts/NexaLightItalic.otf") format("opentype"); }
 
 @font-face {
-  font-family: "Nexa Book";
+  font-family: "Nexa";
+  font-weight: 400;
   src: url("../assets/fonts/NexaBook.otf") format("opentype"); }
 
 @font-face {
-  font-family: "Nexa Book Italic";
+  font-family: "Nexa";
   font-style: italic;
+  font-weight: 400;
   src: url("../assets/fonts/NexaBookItalic.otf") format("opentype"); }
 
 @font-face {
-  font-family: "Nexa Regular";
+  font-family: "Nexa";
+  font-weight: 500;
   src: url("../assets/fonts/NexaRegular.otf") format("opentype"); }
 
 @font-face {
-  font-family: "Nexa Regular Italic";
+  font-family: "Nexa";
   font-style: italic;
+  font-weight: 500;
   src: url("../assets/fonts/NexaRegularItalic.otf") format("opentype"); }
 
 @font-face {
-  font-family: "Nexa Bold";
-  font-weight: bold;
+  font-family: "Nexa";
+  font-weight: 600;
   src: url("../assets/fonts/NexaBold.otf") format("opentype"); }
 
 @font-face {
-  font-family: "Nexa Bold Italic";
+  font-family: "Nexa";
   font-style: italic;
-  font-weight: bold;
+  font-weight: 600;
   src: url("../assets/fonts/NexaBoldItalic.otf") format("opentype"); }
 
 @font-face {
-  font-family: "Nexa Extra Bold";
-  font-weight: bold;
+  font-family: "Nexa";
+  font-weight: 700;
   src: url("../assets/fonts/NexaXBold.otf") format("opentype"); }
 
 @font-face {
-  font-family: "Nexa Extra Bold Italic";
+  font-family: "Nexa";
   font-style: italic;
-  font-weight: bold;
+  font-weight: 700;
   src: url("../assets/fonts/NexaXBoldItalic.otf") format("opentype"); }
 
 @font-face {
-  font-family: "Nexa Heavy";
+  font-family: "Nexa";
+  font-weight: 800;
   src: url("../assets/fonts/NexaHeavy.otf") format("opentype"); }
 
 @font-face {
-  font-family: "Nexa Heavy Italic";
+  font-family: "Nexa";
   font-style: italic;
+  font-weight: 800;
   src: url("../assets/fonts/NexaHeavyItalic.otf") format("opentype"); }
 
 @font-face {
-  font-family: "Nexa Black";
+  font-family: "Nexa";
+  font-weight: 900;
   src: url("../assets/fonts/NexaBlack.otf") format("opentype"); }
 
 @font-face {
-  font-family: "Nexa Black Italic";
+  font-family: "Nexa";
   font-style: italic;
+  font-weight: 900;
   src: url("../assets/fonts/NexaBlackItalic.otf") format("opentype"); }
+
+.display-1 {
+  font-family: 'Nexa';
+  font-size: 121px;
+  font-weight: 400;
+  line-height: 1.1; }
+
+h1 {
+  font-family: 'Nexa';
+  font-size: 121px;
+  font-weight: 600;
+  line-height: 1.1; }
+
+.display-2 {
+  font-family: 'Nexa';
+  font-size: 81px;
+  font-weight: 400;
+  line-height: 1.1; }
+
+h2 {
+  font-family: 'Nexa';
+  font-size: 81px;
+  font-weight: 600;
+  line-height: 1.1; }
+
+.display-3 {
+  font-family: 'Nexa';
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 1.1; }
+
+h3 {
+  font-family: 'Nexa';
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 1.1; }
+
+.display-4 {
+  font-family: 'Nexa';
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.1; }
+
+h4 {
+  font-family: 'Nexa';
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.1; }
+
+.display-5 {
+  font-family: 'Nexa';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.1; }
+
+h5 {
+  font-family: 'Nexa';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.1; }
+
+a {
+  font-size: 1em;
+  font-family: 'Nexa';
+  text-decoration: none;
+  color: #0d6efd; }
+  a:visited {
+    color: #0143a3; }
+  a:hover {
+    color: #408cfd; }
+  a:active {
+    color: #0257d5; }
+
+.text {
+  font-family: "Nexa";
+  font-weight: 400;
+  line-height: 1.5; }
+  .text-md {
+    font-size: 1em;
+    font-family: "Nexa";
+    line-height: 1.5; }
+  .text-sm {
+    font-size: 0.75em;
+    font-family: "Nexa"; }
+  .text-lg {
+    font-size: 1.25em;
+    font-family: "Nexa";
+    line-height: 1.75; }
+  .text-wrap {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  .text-justify {
+    text-align: justify; }
+  .text-left {
+    text-align: left; }
+  .text-right {
+    text-align: right; }
+  .text-center {
+    text-align: center; }
+
+.font-100 {
+  font-weight: 100; }
+
+.font-200 {
+  font-weight: 200; }
+
+.font-300 {
+  font-weight: 300; }
+
+.font-400 {
+  font-weight: 400; }
+
+.font-500 {
+  font-weight: 500; }
+
+.font-600 {
+  font-weight: 600; }
+
+.font-700 {
+  font-weight: 700; }
+
+.font-800 {
+  font-weight: 800; }
+
+.font-900 {
+  font-weight: 900; }
+
+.light {
+  font-weight: 300; }
+
+.lighter {
+  font-weight: 200; }
+
+.bold {
+  font-weight: 700; }
+
+.bolder {
+  font-weight: 900; }
+
+.italic {
+  font-style: italic; }
+
+.underline {
+  text-decoration: underline; }
 
 .text-neutral-50 {
   color: #f8fafc; }

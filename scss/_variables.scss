@@ -47,3 +47,46 @@ $colors: (
     "error-400": #FB6944,
     "error-500": #FF4545,
 );
+
+$font-family-base:          'Nexa';
+
+$font-size-base:            1em !default;
+$font-size-sm:              $font-size-base * .75 !default;
+$font-size-lg:              $font-size-base * 1.25 !default;
+
+$font-weight-regular:          400 !default;
+$font-weight-light:           300 !default;
+$font-weight-lighter:         200 !default;
+$font-weight-bold:            700 !default;
+$font-weight-bolder:          900 !default;
+
+$font-weight-base:            $font-weight-regular !default;
+
+$line-height-base:            1.5 !default;
+$line-height-sm:              1 !default;
+$line-height-lg:              1.75 !default;
+
+$heading-font-weight:      600 !default;
+$heading-line-height:      1.1 !default;
+$display-font-weight:       400 !default; 
+$display-line-height:       $heading-line-height !default;
+
+$link-color:              #0d6efd;
+$link-color-hover:          lighten($link-color, 10%);
+$link-color-visited:        darken($link-color, 20%);
+$link-color-active:         darken($link-color, 10%);
+
+$font-sizes: (
+  1: 121px,
+  2: 81px,
+  3: 54px,
+  4: 36px,
+  5: 24px,
+) !default;
+
+$text-position: (
+    justify: justify,
+    left: left,
+    right: right,
+    center: center
+) !default;
