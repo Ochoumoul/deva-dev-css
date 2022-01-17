@@ -48,6 +48,13 @@ $colors: (
     "error-500": #FF4545,
 );
 
+$link-color:              #0d6efd;
+$link-color-hover:          lighten($link-color, 10%);
+$link-color-visited:        darken($link-color, 20%);
+$link-color-active:         darken($link-color, 10%);
+
+// Typography
+
 $font-family-base:          'Nexa';
 
 $font-size-base:            1em !default;
@@ -70,11 +77,6 @@ $heading-font-weight:      600 !default;
 $heading-line-height:      1.1 !default;
 $display-font-weight:       400 !default; 
 $display-line-height:       $heading-line-height !default;
-
-$link-color:              #0d6efd;
-$link-color-hover:          lighten($link-color, 10%);
-$link-color-visited:        darken($link-color, 20%);
-$link-color-active:         darken($link-color, 10%);
 
 $font-sizes: (
   1: 121px,

@@ -60,6 +60,10 @@ a {
         @include text-wrap;
     }
 
+    &-reset {
+        @include text-reset;
+    }
+    
     @each $attr ,$position in $text-position {
         &-#{$attr} {
             @include text-align($position);
